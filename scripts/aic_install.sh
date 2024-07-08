@@ -1,6 +1,7 @@
+#!/bin/bash
 docker pull ghcr.io/automotiveaichallenge/autoware-universe:humble-latest
 
-mkdir $HOME/aic && cd $HOME/aic
+mkdir -p $HOME/aic && cd $HOME/aic
 git clone -b develop git@github.com:Roborovsky-Racers/aichallenge-2024.git
 git clone git@github.com:AutomotiveAIChallenge/autoware-practice.git
 
